@@ -1,0 +1,13 @@
+a=input()
+print("Character at 3rd position",a[2]) 
+print("Character at 4th position",a[3])   
+print(a[2:4])
+print("6th position onwards along with next two characters",a[5:8])
+print(len(a))
+a=a.lstrip()
+a=a.rstrip()
+print(a)
+a=a[:4]+'p'+a[5:]
+print(a)
+a=a.lower()
+print(a)
