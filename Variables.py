@@ -26,12 +26,12 @@ print(a+b) # Successful
 a="Python"
 b="3"
 print(a+b) # Successful
-'''
+
 #Variables of different data types cannot be combined
 a="Python"
 b=3
 print(a+b) #Error
-'''
+
 #To combine a string and int varaible, we need to use str() method with int
 a="Python"
 b=3
